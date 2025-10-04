@@ -1,0 +1,21 @@
+# Exercícios CSS Seletores
+
+Este projeto contém exemplos práticos de CSS aplicando seletores e estilos em elementos HTML. Ele foi desenvolvido para atender aos seguintes exercícios:
+
+## Funcionalidades
+
+1. **Links**
+   - Cor padrão: vermelho (`red`)
+   - Cor ao passar o mouse: limão (`lemon`)
+
+2. **Parágrafos**
+   - Todos os parágrafos usam a fonte Arial
+   - Parágrafos imediatamente após um `<h1>` ficam em negrito
+
+3. **Classe `.destaque`**
+   - Fonte Arial por padrão
+   - Parágrafos com a classe `.destaque` ficam em negrito
+   - Elementos `<strong>` com a classe `.destaque` ficam em vermelho
+
+## Estrutura do Projeto
+
