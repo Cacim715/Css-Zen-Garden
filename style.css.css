@@ -1,0 +1,126 @@
+/* ============================
+   CSS Zen Garden - Tema Natureza
+============================ */
+
+/* ============================
+   Estilos gerais da página
+============================ */
+body {
+    background-color: #e0f7fa; /* azul claro */
+    color: #004d40; /* verde escuro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ============================
+   Cabeçalho
+============================ */
+header {
+    background-color: #00796b; /* verde médio */
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* ============================
+   Navegação
+============================ */
+nav {
+    background-color: #004d40; /* verde escuro */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffcc80; /* laranja suave para links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ============================
+   Seções principais
+============================ */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    color: #ff6f00; /* laranja de destaque */
+    margin-bottom: 15px;
+}
+
+section p {
+    text-indent: 1em;
+    margin-bottom: 20px;
+}
+
+/* ============================
+   Imagens
+============================ */
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* ============================
+   Destaques e botões
+============================ */
+button, .highlight {
+    background-color: #ff6f00; /* laranja de destaque */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .highlight:hover {
+    background-color: #ff8f00;
+}
+
+/* ============================
+   Listas
+============================ */
+ul, ol {
+    margin-left: 2em;
+}
+
+/* ============================
+   Rodapé
+============================ */
+footer {
+    background-color: #004d40; /* verde escuro */
+    color: #b2dfdb; /* verde claro */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
