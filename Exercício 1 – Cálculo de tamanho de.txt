@@ -1,0 +1,215 @@
+Exercício 1 – Cálculo de tamanho de fonte em pixels
+
+Temos o CSS:
+
+html { font-size: 20px; }
+
+html h1 { font-size: 2rem; }
+
+h1 > .principal { font-size: 1.4em; }
+
+html .secundario { font-size: 1.4rem; }
+
+
+-----------//-----//-----//----//-----
+
+*Lembrando:
+
+*px = pixels (valor absoluto)
+
+*rem = relativo ao font-size do root (html)
+
+*em = relativo ao font-size do elemento pai
+
+-------//-----//----------//------//------
+
+1️⃣ h1
+
+html h1 { font-size: 2rem; }
+
+1rem = font-size do html = 20px
+
+2rem = 2 × 20px = 40px
+
+✅ h1 = 40px
+--------//-------//------//-----//-------
+
+2️⃣ .principal (filho de h1)
+
+h1 > .principal { font-size: 1.4em; }
+1em = font-size do pai
+
+Pai (h1) = 40px
+
+1.4em = 1.4 × 40px = 56px
+
+✅ .principal = 56px
+//----------//---------------//
+
+
+3️⃣ .secundário
+
+html .secundario { font-size: 1.4rem; }
+
+1rem = font-size do html = 20px
+
+1.4rem = 1.4 × 20px = 28px
+
+✅ .secundario = 28px
+
+-----//-------//-------//-------//-----//
+
+| Elemento    | Tamanho (px) |
+| ----------- | ------------ |
+| h1          | 40px         |
+| .principal  | 56px         |
+| .secundario | 28px         |
+
+
+Exercício 2 – Variação de cor RGB
+
+Cor original:
+
+*rgb(219, 78, 68)
+
+Passo 1 – Tornar 15% mais clara
+
+Fórmula para clarear:
+
+𝑅
+nova
+=
+𝑅
++
+(
+255
+−
+𝑅
+)
+×
+0.15
+R
+nova
+	​
+
+=R+(255−R)×0.15
+𝐺
+nova
+=
+𝐺
++
+(
+255
+−
+𝐺
+)
+×
+0.15
+G
+nova
+	​
+
+=G+(255−G)×0.15
+𝐵
+nova
+=
+𝐵
++
+(
+255
+−
+𝐵
+)
+×
+0.15
+B
+nova
+	​
+
+=B+(255−B)×0.15
+
+R: 219 + (255-219)0.15 = 219 + 360.15 = 219 + 5.4 ≈ 224
+
+G: 78 + (255-78)0.15 = 78 + 1770.15 = 78 + 26.55 ≈ 105
+
+B: 68 + (255-68)0.15 = 68 + 1870.15 = 68 + 28.05 ≈ 96
+
+✅ Cor 15% mais clara:
+rgb(224, 105, 96)
+
+
+Passo 2 – Tornar 15% mais escura
+
+Fórmula para escurecer:
+
+𝑅
+nova
+=
+𝑅
+×
+(
+1
+−
+0.15
+)
+R
+nova
+	​
+
+=R×(1−0.15)
+𝐺
+nova
+=
+𝐺
+×
+(
+1
+−
+0.15
+)
+G
+nova
+	​
+
+=G×(1−0.15)
+𝐵
+nova
+=
+𝐵
+×
+(
+1
+−
+0.15
+)
+B
+nova
+	​
+
+=B×(1−0.15)
+
+R: 219 × 0.85 ≈ 186
+
+G: 78 × 0.85 ≈ 66
+
+B: 68 × 0.85 ≈ 58
+
+✅ Cor 15% mais escura:
+
+rgb(186, 66, 58)
+
+Comparação lado a lado
+
+
+| Tipo            | Cor RGB           |
+| --------------- | ----------------- |
+| Original        | rgb(219, 78, 68)  |
+| 15% mais clara  | rgb(224, 105, 96) |
+| 15% mais escura | rgb(186, 66, 58)  |
+
+
+
+
+
+
+
